@@ -10,19 +10,50 @@ namespace GeeksForGeek.Heap
     {
         public static void Main()
         {
+            var leftHeap = new Heap(Heap.Type.Max);
+            var rightHeap = new Heap(Heap.Type.Min);
+
+            leftHeap.AddNum(5);
+            leftHeap.AddNum(10);
+            leftHeap.AddNum(3);
+            var top = leftHeap.GetTop();
 
         }
     }
-    public class MINHeap
+    public class Heap
     {
 
-    }
-    public class MAXHeap
-    {
         private List<int> array;
-        public void AddNum()
+        private Type type;
+        public Heap(Type type)
         {
-
+            this.type = type;
+            array = new List<int>();
+        }
+        public enum Type
+        {
+            Min,
+            Max
+        }
+        public int GetTop()
+        {
+            if (array.Count > 0)
+            {
+                return array[0];
+            }
+            return -1;
+        }
+        public void AddNum(int num)
+        {
+            array.Add(num);
+            Heapify(array.Count-1);
+        }
+        public int Count
+        {
+            get
+            {
+                return array.Count;
+            }
         }
         public void Swap(int i, int j)
         {
@@ -37,7 +68,8 @@ namespace GeeksForGeek.Heap
                 return;
             }
             var parent = (i - 1) / 2;
-            if(parent>=0 && array[i] < array[parent])
+            var comp = parent >= 0 && type == Type.Min ? array[i] < array[parent] : array[i] > array[parent];
+            if (comp)
             {
                 Swap(i, parent);
                 Heapify(parent);
