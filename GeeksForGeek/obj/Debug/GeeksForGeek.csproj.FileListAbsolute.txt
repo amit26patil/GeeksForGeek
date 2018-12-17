@@ -1,0 +1,6 @@
+D:\Study\GeeksForGeek\GeeksForGeek\bin\Debug\GeeksForGeek.exe.config
+D:\Study\GeeksForGeek\GeeksForGeek\bin\Debug\GeeksForGeek.exe
+D:\Study\GeeksForGeek\GeeksForGeek\bin\Debug\GeeksForGeek.pdb
+D:\Study\GeeksForGeek\GeeksForGeek\obj\Debug\GeeksForGeek.csprojResolveAssemblyReference.cache
+D:\Study\GeeksForGeek\GeeksForGeek\obj\Debug\GeeksForGeek.exe
+D:\Study\GeeksForGeek\GeeksForGeek\obj\Debug\GeeksForGeek.pdb
