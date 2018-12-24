@@ -47,6 +47,7 @@
     <Compile Include="BinarySearchTree\ClosestSmallNumBST.cs" />
     <Compile Include="BinarySearchTree\LargestNumLessThanN.cs" />
     <Compile Include="BinarySearchTree\RootToLeafPathSum.cs" />
+    <Compile Include="Hashing\LargestSubarray0Sum.cs" />
     <Compile Include="Heap\KthLargestNumInArray.cs" />
     <Compile Include="Heap\MedianInStream.cs" />
     <Compile Include="Tree\PrintLeftViewTree.cs" />
