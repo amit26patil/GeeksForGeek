@@ -8,7 +8,7 @@ namespace GeeksForGeek.Heap
 {
     class MedianInStream
     {
-        public static void Main()
+        public static void Main1()
         {
             var leftHeap = new Heap(Heap.Type.Max);
             var rightHeap = new Heap(Heap.Type.Min);
