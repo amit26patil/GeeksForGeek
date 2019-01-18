@@ -21,7 +21,7 @@ namespace GeeksForGeek.Tree
             public BinaryTree.Node Node { get; set; }
             public int BreadthLevel { get; set; }
         }
-        public static void Main()
+        public static void Main1()
         {
             BinaryTree tree = new BinaryTree(1);
             tree.Root.Left = new BinaryTree.Node(2);

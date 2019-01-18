@@ -12,7 +12,7 @@ namespace GeeksForGeek.Heap
         {
             var array = new int[] { 10, 15, 18, 5, 6, 9, 20 };
             var tempArray = new int[array.Length];
-            Array.Copy(array, tempArray, array.Length);
+            //Array.Copy(array, tempArray, array.Length);
 
             var maxHeap = new MaxHeap();
             var max = maxHeap.GetMax(array, 3);

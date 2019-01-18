@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\DuplicatesInOofN.cs" />
+    <Compile Include="Array\MaxOfMinEveryWindow.cs" />
     <Compile Include="BinarySearchTree\BinnarySearchTree.cs" />
     <Compile Include="BinarySearchTree\ClosestSmallNumBST.cs" />
     <Compile Include="BinarySearchTree\LargestNumLessThanN.cs" />
@@ -50,6 +51,9 @@
     <Compile Include="Hashing\LargestSubarray0Sum.cs" />
     <Compile Include="Heap\KthLargestNumInArray.cs" />
     <Compile Include="Heap\MedianInStream.cs" />
+    <Compile Include="Queue\FindCircularTour1.cs" />
+    <Compile Include="Queue\FindCircularTour.cs" />
+    <Compile Include="Tree\ConnectNodesSameLevel.cs" />
     <Compile Include="Tree\PrintLeftViewTree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

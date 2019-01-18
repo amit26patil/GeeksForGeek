@@ -14,7 +14,7 @@ namespace GeeksForGeek.Hashing
     /// </summary>
     class LargestSubarray0Sum
     {
-        public static void Main()
+        public static void Main1()
         {
             var arr = new int[] { 15, -2, 2, -8, 1, 7, 10, 23 };
             var len = MaxLen(arr);
